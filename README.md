@@ -1,1 +1,1 @@
-# algrithm
+# common algrithms implemented in PHP.
