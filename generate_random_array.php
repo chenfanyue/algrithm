@@ -1,13 +1,13 @@
 <?php
 
-function makearray()
+function makearray($length)
 {
-    $i=10;
+    $i=$length;
     while ($i--) {
-        $arr[]=mt_rand(1,22);
+        $arr[]=mt_rand(1,1000);
     }
     echo "origin: ";
-    for ($i=0; $i < 10; $i++) { 
+    for ($i=0; $i < $length; $i++) { 
         echo "$arr[$i] ";
     }
     echo "\n";
