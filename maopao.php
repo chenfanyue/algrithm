@@ -29,5 +29,5 @@ function maopao($arr)
     }
     echo PHP_EOL;
     echo implode(',', $arr), "\n";
-    print_r($arr); // similar as the above line
+    print_r($arr); // similar as above
 }
